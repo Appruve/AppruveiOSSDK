@@ -6,7 +6,7 @@ The Appruve iOS SDK aims to help mobile apps developers integrating with the App
 
 ### Adding the SDK with CocoaPods
 
-Coming soon...
+Coming soon....
 
 
 ### Manually adding the SDK
