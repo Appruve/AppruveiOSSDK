@@ -21,7 +21,7 @@ You can manually add the SDK to your project in Xcode.
   pod 'SwiftyJSON', '~> 4.0'
 ```
 
-2. Download the SDK => https://github.com/Appruve/AppruveiOSSDK/releases/download/0.0.1/AppruveiOSSDK.xcframework.zip
+2. Download the SDK => https://github.com/Appruve/AppruveiOSSDK/blob/main/releases/download/0.0.1/AppruveiOSSDK.xcframework.zip?raw=true
 
 3. In Xcode, select your project in Project navigator:
 
