@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, '11.0'
 
-  spec.source       = { :http => 'https://github.com/Appruve/AppruveiOSSDK/AppruveiOSSDK.xcframework.zip' }
+  spec.source       = { :http => 'https://github.com/Appruve/AppruveiOSSDK/releases/download/0.0.1/AppruveiOSSDK.xcframework.zip' }
 
   spec.vendored_frameworks = 'AppruveiOSSDK.framework'
 
