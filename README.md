@@ -13,11 +13,23 @@ Coming soon...
 
 You can manually add the SDK to your project in Xcode.
 
-1. Download the SDK => https://github.com/Appruve/AppruveiOSSDK/releases/download/0.0.1/AppruveiOSSDK.xcframework.zip
-2. In Xcode, select your project in Project navigator:
-3. In Finder, navigate to where you extracted the SDK.
-4. Drag the `AppruveiOSSDK.xcframework` to the `Frameworks and Libraries` section under the general settings tab of your application's target. Ensure the Embed dropdown has Embed and Sign selected for the framework.
-5. Set the Add Files options as follows:
+1. Add the following pods to your projects `Podfile` then run `pod install`:
+
+```ruby
+  pod 'RxSwift', '6.2.0'
+  pod 'RxCocoa', '6.2.0'
+  pod 'SwiftyJSON', '~> 4.0'
+```
+
+2. Download the SDK => https://github.com/Appruve/AppruveiOSSDK/releases/download/0.0.1/AppruveiOSSDK.xcframework.zip
+
+3. In Xcode, select your project in Project navigator:
+
+4. In Finder, navigate to where you extracted the SDK.
+
+5. Drag the `AppruveiOSSDK.xcframework` to the `Frameworks and Libraries` section under the general settings tab of your application's target. Ensure the Embed dropdown has Embed and Sign selected for the framework.
+
+6. Set the Add Files options as follows:
     * Destination - select Copy items if needed
     * Added folders - select Create groups
 
