@@ -12,7 +12,7 @@ If not already done, create a Podfile for your project as follows:
 
 1. In Terminal, navigate to the top-level folder of your project (the one with the xcodeproj file).
 
-2. Create a Podfile with the following command: $ pod init
+2. Create a Podfile with the following command: `$ pod init`
 
 3. Open the file in Xcode with the following command: `open -a Xcode Podfile`
 
