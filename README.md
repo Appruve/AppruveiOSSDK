@@ -6,8 +6,49 @@ The Appruve iOS SDK aims to help mobile apps developers integrating with the App
 
 ### Adding the SDK with CocoaPods
 
-Coming soon....
+CocoaPods is a dependency manager that lets you add third-party frameworks and libraries to projects. For installation instructions, see [Install CocoaPods](https://guides.cocoapods.org/using/getting-started.html#toc_3).
 
+If not already done, create a Podfile for your project as follows:
+
+1. In Terminal, navigate to the top-level folder of your project (the one with the xcodeproj file).
+
+2. Create a Podfile with the following command: $ pod init
+
+3. Open the file in Xcode with the following command: `open -a Xcode Podfile`
+
+The content should look as follows:
+
+```ruby
+  target 'ExampleProject' do
+    # Comment the next line if you don't want to use dynamic frameworks
+    use_frameworks!
+  end
+```
+
+1. Add the `AppruveiOSSDK` pod to the `do` block of your Podfile
+
+```ruby
+  target 'ExampleProject' do
+    # Comment the next line if you don't want to use dynamic frameworks
+    use_frameworks!
+
+    pod 'AppruveiOSSDK'
+  end
+```
+
+2. Save the Podfile.
+
+3. Run the following command in Terminal:
+
+```
+pod install
+```
+
+**Note**: If you installed a previous version of the SDK with CocoaPods, run `pod update` first to update the SDK pod on your system.
+
+Because your project now contains a dependency managed by CocoaPods, you must open the project in Xcode by double-clicking the `.xcworkspace` file, not `.xcodeproj`.
+
+For more information, see [Using CocoaPods](https://guides.cocoapods.org/using/using-cocoapods.html) on cocoapods.org.
 
 ### Manually adding the SDK
 

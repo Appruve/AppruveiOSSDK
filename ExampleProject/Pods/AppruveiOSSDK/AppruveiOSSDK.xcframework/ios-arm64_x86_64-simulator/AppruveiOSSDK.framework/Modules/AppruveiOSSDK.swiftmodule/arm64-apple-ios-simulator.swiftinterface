@@ -1,0 +1,55 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppruveiOSSDK
+import AVFoundation
+@_exported import AppruveiOSSDK
+import CoreImage
+import Foundation
+import MobileCoreServices
+import RxCocoa
+import RxSwift
+import Swift
+import SwiftyJSON
+import UIKit
+import _Concurrency
+@_hasMissingDesignatedInitializers public class Appruve {
+  public static func initialize(apiKey: Swift.String, isGhanaEnabled: Swift.Bool = true, isNigeriaEnabled: Swift.Bool = true, isKenyaEnabled: Swift.Bool = true, primaryBrandColor: Swift.String = "#079F5E", secondaryBrandColor: Swift.String = "#EAA844", isDocumentCaptureRetryEnabled: Swift.Bool = true, isDocumentCaptureOnly: Swift.Bool = false, isSelfieCaptureOnly: Swift.Bool = false, isGhanaVoterIDEnabled: Swift.Bool = true, isGhanaPassportIDEnabled: Swift.Bool = true, isGhanaDriverLicenseIDEnabled: Swift.Bool = true, isGhanaSSNITIDEnabled: Swift.Bool = true, isNigeriaVoterIDEnabled: Swift.Bool = true, isNigeriaPassportIDEnabled: Swift.Bool = true, isNigeriaDriverLicenseIDEnabled: Swift.Bool = true, isNigeriaNationalIDEnabled: Swift.Bool = true, isKenyaNationalIDEnabled: Swift.Bool = true, isKenyaPassportIDEnabled: Swift.Bool = true)
+  public static func buildVerificationController(delegate: AppruveiOSSDK.AppruveVerificationCompleteDelegate) throws -> UIKit.UIViewController
+  @objc deinit
+}
+extension Foundation.URLRequest {
+  public enum HTTPMethod : Swift.String {
+    case connect
+    case delete
+    case get
+    case head
+    case options
+    case patch
+    case post
+    case put
+    case trace
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SelfiePhotoViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak public var verificationCompleteDelegate: AppruveiOSSDK.AppruveVerificationCompleteDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol AppruveVerificationCompleteDelegate : AnyObject {
+  func onVerificationComplete(result: AppruveiOSSDK.AppruveVerificationResult)
+  func onVerificationFailure(error: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class AppruveVerificationResult {
+  @objc deinit
+}
+extension Foundation.URLRequest.HTTPMethod : Swift.Equatable {}
+extension Foundation.URLRequest.HTTPMethod : Swift.Hashable {}
+extension Foundation.URLRequest.HTTPMethod : Swift.RawRepresentable {}
