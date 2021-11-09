@@ -32,9 +32,9 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = '5.3'
 
-  spec.source       = { http: 'https://github.com/Appruve/AppruveiOSSDK/releases/download/0.0.1/AppruveiOSSDK.xcframework.zip' }
+  spec.source       = { http: 'https://github.com/Appruve/AppruveiOSSDK/blob/main/releases/download/0.0.1/AppruveiOSSDK.xcframework.zip?raw=true' }
 
-  spec.vendored_frameworks = 'releases/download/0.0.1/AppruveiOSSDK.xcframework'
+  spec.vendored_frameworks = 'AppruveiOSSDK.xcframework'
 
   spec.dependency 'RxSwift', '~> 6.2.0'
   spec.dependency 'RxCocoa', '~> 6.2.0'
