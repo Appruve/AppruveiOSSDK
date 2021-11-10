@@ -12,6 +12,8 @@ If not already done, create a Podfile for your project as follows:
 
 1. In Terminal, navigate to the top-level folder of your project (the one with the xcodeproj file).
 
+<img width="268" alt="Screenshot 2021-11-09 at 7 21 12 PM" src="https://user-images.githubusercontent.com/5106229/141089214-2d798efd-3f8f-4a7b-a86f-e5f4ae4a597c.png">
+
 2. Create a Podfile with the following command: `$ pod init`
 
 3. Open the file in Xcode with the following command: `open -a Xcode Podfile`
