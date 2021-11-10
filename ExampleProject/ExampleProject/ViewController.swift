@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.navigationController?.navigationBar.barTintColor = .blue
     }
 
     @IBAction func didTapVerificationButton(_ sender: Any) {
@@ -30,7 +32,7 @@ class ViewController: UIViewController {
 
 extension ViewController: AppruveVerificationCompleteDelegate {
     func onVerificationComplete(result: AppruveVerificationResult) {
-        print(result)
+        print(result.idDetails)
     }
     
     func onVerificationFailure(error: String) {

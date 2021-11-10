@@ -6,8 +6,10 @@ target 'ExampleProject' do
   use_frameworks!
 
   # Pods for ExampleProject
+  pod 'RxSwift', '6.2.0'
+  pod 'RxCocoa', '6.2.0'
+  pod 'SwiftyJSON', '~> 4.0'
 
-  pod 'AppruveiOSSDK', '0.0.1'
 
   target 'ExampleProjectTests' do
     inherit! :search_paths
