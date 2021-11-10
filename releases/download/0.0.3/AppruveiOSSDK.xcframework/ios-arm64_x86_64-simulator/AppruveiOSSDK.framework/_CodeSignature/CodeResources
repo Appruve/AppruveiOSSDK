@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/AppruveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lKCrCINrlg80DNvGqM84AHN1c94=
+		773NtzanVYV5+7M5VvabstCg2fk=
 		</data>
 		<key>Modules/AppruveiOSSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/AppruveiOSSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		lKCrCINrlg80DNvGqM84AHN1c94=
+		773NtzanVYV5+7M5VvabstCg2fk=
 		</data>
 		<key>Modules/AppruveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/AppruveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mwJj6C9yXyuxowydV5UTCMKqeAQ=
+		v5SBIW81IMhDvUING22Es8GAE2M=
 		</data>
 		<key>Modules/AppruveiOSSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/AppruveiOSSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		mwJj6C9yXyuxowydV5UTCMKqeAQ=
+		v5SBIW81IMhDvUING22Es8GAE2M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -125,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eUr6Gy/2+yPavm/EOn2Y0Wb761EO8LwETwlzifSNIOg=
+			GTPlf0F9skTPcUpj1GlIqa5iS7Zbh7/aLtwxh5QCkaI=
 			</data>
 		</dict>
 		<key>Modules/AppruveiOSSDK.swiftmodule/arm64.swiftdoc</key>
@@ -146,7 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eUr6Gy/2+yPavm/EOn2Y0Wb761EO8LwETwlzifSNIOg=
+			GTPlf0F9skTPcUpj1GlIqa5iS7Zbh7/aLtwxh5QCkaI=
 			</data>
 		</dict>
 		<key>Modules/AppruveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -167,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Qna5gLUNHunjYVCcgyXE62wiINNrqDJz4HwWbCYddo=
+			JYRfv+HmVzA4674Ov0+Y1MqDaQ4DH0VYAEy2XPxSwmU=
 			</data>
 		</dict>
 		<key>Modules/AppruveiOSSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -188,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Qna5gLUNHunjYVCcgyXE62wiINNrqDJz4HwWbCYddo=
+			JYRfv+HmVzA4674Ov0+Y1MqDaQ4DH0VYAEy2XPxSwmU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
