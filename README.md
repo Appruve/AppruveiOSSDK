@@ -2,6 +2,9 @@
 
 The Appruve iOS SDK aims to help mobile apps developers integrating with the Appruve API by providing a Swift wrapper to the API and a collection of UI screens and elements to capture photos of documents and faces for further facial recognition.
 
+| <img src="https://user-images.githubusercontent.com/5106229/142033123-d4c3b894-4b23-405c-b51e-97ac86b983c1.PNG" width="250"> | <img src="https://user-images.githubusercontent.com/5106229/142033152-bd8bbee2-5468-43e8-95d8-a89242460971.PNG" width="250"> | <img src="https://user-images.githubusercontent.com/5106229/142033168-65f16eaf-3732-42ca-809f-93f5ebc05761.PNG" width="250"> |
+|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+
 ## Adding the SDK
 
 ### Adding the SDK with CocoaPods
@@ -89,7 +92,7 @@ If your app doesn't already request permissions for these features, update your 
 ```swift
   import AppruveiOSSDK
 ```
-2. Paste the following initialization code into the application: didFinishLaunchingWithOptions method.
+2. Paste the following initialization code into the application: didFinishLaunchingWithOptions method or just before you call `Appruve.buildVerificationController`.
 
 ```swift
   Appruve.initialize(
