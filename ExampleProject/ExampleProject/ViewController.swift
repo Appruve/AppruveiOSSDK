@@ -15,7 +15,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        self.navigationController?.navigationBar.barTintColor = .blue
+        let navigationBar = self.navigationController!.navigationBar
+        navigationItem.title = "Verify your identity"
+        
+        if #available(iOS 13.0, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = .blue
+            appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+            navigationBar.standardAppearance = appearance;
+            navigationBar.scrollEdgeAppearance = navigationBar.standardAppearance
+        } else {
+            // Fallback on earlier versions
+            navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+            navigationBar.barTintColor = .blue
+        }
     }
 
     @IBAction func didTapVerificationButton(_ sender: Any) {
@@ -30,9 +44,13 @@ class ViewController: UIViewController {
 }
 
 
-extension ViewController: AppruveVerificationCompleteDelegate {
+extension ViewController: AppruveVerificationDelegate {
+    func onFlowChanged(flow: String) {
+        print(flow)
+    }
+    
     func onVerificationComplete(result: AppruveVerificationResult) {
-        print(result.idDetails)
+        print(result)
     }
     
     func onVerificationFailure(error: String) {

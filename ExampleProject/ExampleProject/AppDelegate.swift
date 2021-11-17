@@ -11,11 +11,11 @@ import AppruveiOSSDK
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Appruve.initialize(apiKey: "YOUR_API_TOKEN", isGhanaEnabled: true, isNigeriaEnabled: true, isKenyaEnabled: true, primaryBrandColor: "#69298a", secondaryBrandColor: "#F49600", isDocumentCaptureRetryEnabled: true, isDocumentCaptureOnly: true, isSelfieCaptureOnly: false, isGhanaVoterIDEnabled: true, isGhanaPassportIDEnabled: true, isGhanaDriverLicenseIDEnabled: true, isGhanaSSNITIDEnabled: true, isNigeriaVoterIDEnabled: true, isNigeriaPassportIDEnabled: true, isNigeriaDriverLicenseIDEnabled: true, isNigeriaNationalIDEnabled: true, isKenyaNationalIDEnabled: true, isKenyaPassportIDEnabled: true)
+        Appruve.initialize(apiKey: "YOUR_API_TOKEN", isGhanaEnabled: true, isNigeriaEnabled: true, isKenyaEnabled: true, primaryBrandColor: "#69298a", secondaryBrandColor: "#F49600", transactionReference: "", isDocumentCaptureRetryEnabled: true, isDocumentCaptureOnly: false, isSelfieCaptureOnly: false, isGhanaVoterIDEnabled: true, isGhanaPassportIDEnabled: true, isGhanaDriverLicenseIDEnabled: true, isGhanaSSNITIDEnabled: true, isNigeriaVoterIDEnabled: true, isNigeriaPassportIDEnabled: true, isNigeriaDriverLicenseIDEnabled: true, isNigeriaNationalIDEnabled: true, isKenyaNationalIDEnabled: true, isKenyaPassportIDEnabled: false )
         
         return true
     }

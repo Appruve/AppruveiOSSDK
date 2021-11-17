@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## AppruveiOSSDK
+
+Copyright 2021 Inclusive Innovations, Inc. All Rights Reserved.\n
+
 ## RxCocoa
 
 **The MIT License**
