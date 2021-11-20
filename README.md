@@ -129,13 +129,17 @@ First, import the required module.
 Second, implement the AppruveVerificationCompleteDelegate protocol.
 
 ```swift
-  extension ViewController: AppruveVerificationCompleteDelegate {
+  extension ViewController: AppruveVerificationDelegate {
     func onVerificationComplete(result: AppruveVerificationResult) {
         print(result)
     }
 
     func onVerificationFailure(error: String) {
         print(error)
+    }
+
+    func onFlowChanged(flow: String) {
+        print(flow)
     }
   }
 ```
