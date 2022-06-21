@@ -10,8 +10,6 @@
 		C151067C6FA12E518E478F0A /* Pods_ExampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288F939A07E2AFF72E901D7D /* Pods_ExampleProject.framework */; };
 		DEE800B82E20EC1891C07665 /* Pods_ExampleProject_ExampleProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250AAE0B962BEF041F019A6 /* Pods_ExampleProject_ExampleProjectUITests.framework */; };
 		EA8FAB8917D0722F1ED67A3F /* Pods_ExampleProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A719A78E67717D7B1B6F1 /* Pods_ExampleProjectTests.framework */; };
-		F96975C728616D43003EED1D /* AppruveiOSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95DCEC1273C12E100DE18C1 /* AppruveiOSSDK.xcframework */; };
-		F96975C828616D43003EED1D /* AppruveiOSSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F95DCEC1273C12E100DE18C1 /* AppruveiOSSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F977CFB9273AF55900ACEAF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977CFB8273AF55900ACEAF2 /* AppDelegate.swift */; };
 		F977CFBB273AF55900ACEAF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977CFBA273AF55900ACEAF2 /* SceneDelegate.swift */; };
 		F977CFBD273AF55900ACEAF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977CFBC273AF55900ACEAF2 /* ViewController.swift */; };
@@ -39,20 +37,6 @@
 			remoteInfo = ExampleProject;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		F96975C928616D43003EED1D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F96975C828616D43003EED1D /* AppruveiOSSDK.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0EC32DD5A5BB6C59FDA4626F /* Pods-ExampleProject-ExampleProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleProject-ExampleProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleProject-ExampleProjectUITests/Pods-ExampleProject-ExampleProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96975C728616D43003EED1D /* AppruveiOSSDK.xcframework in Frameworks */,
 				C151067C6FA12E518E478F0A /* Pods_ExampleProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,7 +183,6 @@
 				F977CFB2273AF55900ACEAF2 /* Frameworks */,
 				F977CFB3273AF55900ACEAF2 /* Resources */,
 				588842679814AEBF2CF6152B /* [CP] Embed Pods Frameworks */,
-				F96975C928616D43003EED1D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

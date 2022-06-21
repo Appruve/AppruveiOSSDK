@@ -6,7 +6,7 @@ target 'ExampleProject' do
   use_frameworks!
 
   # Pods for ExampleProject
-  # pod 'AppruveiOSSDK', '~> 0.0.8'
+  pod 'AppruveiOSSDK', '~> 0.0.9'
 
   pod 'RxSwift', '6.2.0'
   pod 'RxCocoa', '6.2.0'
