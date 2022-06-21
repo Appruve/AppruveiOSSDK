@@ -56,4 +56,8 @@ extension ViewController: AppruveVerificationDelegate {
     func onVerificationFailure(error: String) {
         print(error)
     }
+    
+    func onClose() {
+        print("onClose")
+    }
 }
