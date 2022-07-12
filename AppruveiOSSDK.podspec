@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = 'AppruveiOSSDK'
-  spec.version      = '0.0.9'
+  spec.version      = '0.1.0'
   spec.summary      = 'A Swift client for the Appruve API and a collection of UI elements to capture document photos and take Selfie'
 
   # This description is used to generate tags and improve search results.
@@ -32,11 +32,10 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = '5.3'
 
-  spec.source       = { http: 'https://github.com/Appruve/AppruveiOSSDK/blob/main/releases/download/0.0.9/AppruveiOSSDK.xcframework.zip?raw=true' }
+  spec.source       = { http: 'https://github.com/Appruve/AppruveiOSSDK/blob/main/releases/download/0.1.0/AppruveiOSSDK.xcframework.zip?raw=true' }
 
   spec.vendored_frameworks = 'AppruveiOSSDK.xcframework'
 
   spec.dependency 'RxSwift', '~> 6.2.0'
   spec.dependency 'RxCocoa', '~> 6.2.0'
-  spec.dependency 'SwiftyJSON', '~> 4.0'
 end
