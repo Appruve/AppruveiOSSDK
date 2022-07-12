@@ -50,7 +50,17 @@ extension ViewController: AppruveVerificationDelegate {
     }
     
     func onVerificationComplete(result: AppruveVerificationResult) {
-        print(result)
+        print(result.transactionReference)
+        print(result.confidenceSore)
+        print(result.verificationStatus)
+        print(result.documentFaceCaptured)
+        print(result.selfieFaceCaptured)
+        print(result.documentSubmitted)
+        print(result.selfiePhotoSubmitted)
+        print(result.faceMatchPercent)
+        print(result.idMatchPercent)
+        print(result.documentType)
+        print(result.idDetails)
     }
     
     func onVerificationFailure(error: String) {

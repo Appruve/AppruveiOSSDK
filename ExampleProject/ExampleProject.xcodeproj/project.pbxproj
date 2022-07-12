@@ -19,6 +19,8 @@
 		F977CFD0273AF55E00ACEAF2 /* ExampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977CFCF273AF55E00ACEAF2 /* ExampleProjectTests.swift */; };
 		F977CFDA273AF55E00ACEAF2 /* ExampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977CFD9273AF55E00ACEAF2 /* ExampleProjectUITests.swift */; };
 		F977CFDC273AF55F00ACEAF2 /* ExampleProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977CFDB273AF55E00ACEAF2 /* ExampleProjectUITestsLaunchTests.swift */; };
+		F9AD167F287D05DE00DAC38B /* AppruveiOSSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95DCEC1273C12E100DE18C1 /* AppruveiOSSDK.xcframework */; };
+		F9AD1680287D05DE00DAC38B /* AppruveiOSSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F95DCEC1273C12E100DE18C1 /* AppruveiOSSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,20 @@
 			remoteInfo = ExampleProject;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9AD1681287D05DE00DAC38B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F9AD1680287D05DE00DAC38B /* AppruveiOSSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0EC32DD5A5BB6C59FDA4626F /* Pods-ExampleProject-ExampleProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleProject-ExampleProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleProject-ExampleProjectUITests/Pods-ExampleProject-ExampleProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AD167F287D05DE00DAC38B /* AppruveiOSSDK.xcframework in Frameworks */,
 				C151067C6FA12E518E478F0A /* Pods_ExampleProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +200,7 @@
 				F977CFB2273AF55900ACEAF2 /* Frameworks */,
 				F977CFB3273AF55900ACEAF2 /* Resources */,
 				588842679814AEBF2CF6152B /* [CP] Embed Pods Frameworks */,
+				F9AD1681287D05DE00DAC38B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -592,6 +610,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = RNSU2VHX47;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExampleProject/Info.plist;
@@ -622,6 +641,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = RNSU2VHX47;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExampleProject/Info.plist;
