@@ -1,4 +1,7 @@
 PODS:
+  - AppruveiOSSDK (0.1.0):
+    - RxCocoa (~> 6.2.0)
+    - RxSwift (~> 6.2.0)
   - RxCocoa (6.2.0):
     - RxRelay (= 6.2.0)
     - RxSwift (= 6.2.0)
@@ -7,20 +10,23 @@ PODS:
   - RxSwift (6.2.0)
 
 DEPENDENCIES:
+  - AppruveiOSSDK (~> 0.1.0)
   - RxCocoa (= 6.2.0)
   - RxSwift (= 6.2.0)
 
 SPEC REPOS:
   trunk:
+    - AppruveiOSSDK
     - RxCocoa
     - RxRelay
     - RxSwift
 
 SPEC CHECKSUMS:
+  AppruveiOSSDK: 281d5285fb21ca6c93538e8f15e985e7e9746511
   RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
 
-PODFILE CHECKSUM: c12cba5421dfb6df8d0e9133c8b7fbb3ca057cb7
+PODFILE CHECKSUM: 497f4c302a15cc85855d9628d0dff01c91a9416a
 
 COCOAPODS: 1.11.2
